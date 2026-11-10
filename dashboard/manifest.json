@@ -1,0 +1,7 @@
+{
+  "name": "gif-tool",
+  "label": "GIF Tool",
+  "description": "Backend for the GIF Tool chat card and studio: previews edits, compresses exports, lists the GIF library.",
+  "version": "1.0.0",
+  "api": "plugin_api.py"
+}

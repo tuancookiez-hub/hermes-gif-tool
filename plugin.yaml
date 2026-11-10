@@ -1,0 +1,25 @@
+name: gif-tool
+label: GIF Tool
+kind: standalone
+version: "1.0.0"
+author: tuanc
+license: MIT
+description: >
+  Show, edit and compress GIFs in Hermes. Open any GIF by path or link and it plays in a Desktop
+  chat card where you add exact captions, trim, change speed, reverse, crop and export it sized
+  for Discord, Telegram, X or a limit you choose. Can also create a 4-frame meme GIF from a prompt
+  with your ChatGPT/Codex sign-in. Editing and compression are local and free; see README for
+  network, data and cost disclosures.
+requires_hermes: ">=0.22.0"
+requires_auth:
+  - openai-codex
+provides_tools:
+  - gif_open
+  - gif_edit
+  - gif_export
+  - gif_create
+provides_hooks: []
+python_dependencies:
+  - "Pillow>=10.1,<14"
+  - "httpx>=0.27,<1"
+tags: [gif, meme, image, compression, animation, desktop]
