@@ -20,7 +20,7 @@ from typing import Any
 ENDPOINT = "https://chatgpt.com/backend-api/codex/images/generations"
 QUALITIES = ("low", "medium", "high")
 TIMEOUT_S = 240.0
-PLUGIN_VERSION = "1.0.0"
+PLUGIN_VERSION = "1.0.1"
 
 
 class CodexImageError(Exception):
